@@ -1,0 +1,36 @@
+<changelogs>
+	<changelog>
+		<element>com_foos</element>
+		<type>component</type>
+		<version>0.1.0</version>
+		<note>
+			<item>Initial Version</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>com_foos</element>
+		<type>component</type>
+		<version>0.1.1</version>
+		<security>
+			<item><![CDATA[<p>section is prepared. otherwise no use</p>]]></item>
+		</security>
+		<fix>
+			<item>No fix</item>
+		</fix>
+		<language>
+			<item>English</item>
+		</language>
+		<addition>
+			<item>... added.</item>
+		</addition>
+		<change>
+			<item>... changed.</item>
+		</change>
+		<remove>
+			<item>... removed. </item>
+		</remove>
+		<note>
+			<item>... note.</item>
+		</note>
+	</changelog>
+</changelogs>
