@@ -1,0 +1,51 @@
+Buildfile: d:\Entwickl\Entwickl.2019\_GitHub\RSGallery2_J-4\.build\.\updateProject.xml
+      [php] Calling PHP function: strtolower()
+
+RSG2_component > manifestFile:
+
+     [echo] manifestFile start
+     [echo] build.version: 5.0.0.3
+     [echo] date.day.month.year: 26. Dec. 2019
+[reflexive] Applying reflexive processing to 1 files.
+     [echo] manifestFile end
+
+RSG2_component > AddVersion2PhpSinceDoc:
+
+     [echo] AddVersion2PhpSinceDoc start
+     [echo] build.version: 5.0.0.3
+[reflexive] Applying reflexive processing to 107 files.
+     [echo] AddVersion2PhpSinceDoc end
+
+RSG2_component > UpdateCopyrightYear:
+
+     [echo] UpdateCopyrightYear start *.php
+     [echo] build.version: 5.0.0.3
+[reflexive] Directory d:\Entwickl\Entwickl.2019\_GitHub\RSGallery2_J-4\.build\${admininistrator} not found.
+[reflexive] Applying reflexive processing to 6 files.
+     [echo] UpdateCopyrightYear start *.xml
+[reflexive] Directory d:\Entwickl\Entwickl.2019\_GitHub\RSGallery2_J-4\.build\${admininistrator} not found.
+[reflexive] Applying reflexive processing to 5 files.
+     [echo] UpdateCopyrightYear end
+
+RSG2_component > RemoveSite_ParamsIniFiles:
+
+     [echo] RemoveSite_ParamsIniFiles start
+     [echo] RemoveSite_ParamsIniFiles end
+
+RSG2_component > build:
+
+      [php] Calling PHP function: strtolower()
+
+RSG2_component > RemoveSite_ParamsIniFiles:
+
+     [echo] RemoveSite_ParamsIniFiles start
+     [echo] RemoveSite_ParamsIniFiles end
+     [echo] build done
+     [echo] ------------------------------------------
+     [echo] Don't forget to change RSG2_...update and changelog file when releasing
+     [echo] ------------------------------------------
+
+BUILD FINISHED
+
+Total time: 2.6840 seconds
+

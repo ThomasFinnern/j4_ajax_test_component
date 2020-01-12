@@ -1,0 +1,18 @@
+Buildfile: d:\Entwickl\Entwickl.2019\_GitHub\RSGallery2_J-4\.build\.\updateProject.xml
+      [php] Calling PHP function: strtolower()
+
+RSG2_component > UpdateCopyrightYear:
+
+     [echo] UpdateCopyrightYear start *.php
+     [echo] build.version: 5.0.0.3
+[reflexive] Directory d:\Entwickl\Entwickl.2019\_GitHub\RSGallery2_J-4\.build\${admininistrator} not found.
+[reflexive] Applying reflexive processing to 6 files.
+     [echo] UpdateCopyrightYear start *.xml
+[reflexive] Directory d:\Entwickl\Entwickl.2019\_GitHub\RSGallery2_J-4\.build\${admininistrator} not found.
+[reflexive] Applying reflexive processing to 5 files.
+     [echo] UpdateCopyrightYear end
+
+BUILD FINISHED
+
+Total time: 0.3011 seconds
+

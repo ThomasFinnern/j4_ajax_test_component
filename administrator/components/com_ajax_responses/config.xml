@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="ajax_response"
+		label="COM_AJAX_RESPONSES_FIELD_CONFIG_INDIVIDUAL__DISPLAY"
+		description="COM_AJAX_RESPONSES_FIELD_CONFIG_INDIVIDUAL__DESC"
+		>
+		<field
+			name="show_ajax_response_name_label"
+			type="list"
+			label="COM_AJAX_RESPONSES_FIELD__SHOW_CATEGORY_LABEL"
+			default="1"
+			>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+	</fieldset>
+</config>

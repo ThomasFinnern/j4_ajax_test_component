@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" method="upgrade">
+	<name>COM_AJAX_RESPONSES</name>
+	<creationDate>11.01.2020</creationDate>
+	<author>Thomas Finnern</author>
+	<authorEmail>[AUTHOR_EMAIL]</authorEmail>
+	<authorUrl>https://github.com/ThomasFinnern</authorUrl>
+	<copyright>(c) 2003-2019 Thomas Finnern</copyright>
+	<license>GNU General Public License version 2 or later;</license>
+	<version>0.1.0</version>
+	<description>COM_AJAX_RESPONSES_XML_DESCRIPTION</description>
+	<namespace>Joomla\Component\Ajax_responses</namespace>
+	<scriptfile>installAjaxResponses.php</scriptfile>
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	<!-- Frond-end files -->
+	<files folder="components/com_ajax_responses">
+		<folder>Controller</folder>
+		<folder>Model</folder>
+		<folder>View</folder>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+	</files>
+    <media folder="media/com_ajax_responses" destination="com_ajax_responses">
+		<folder>js</folder>
+		<folder>css</folder>
+    </media>
+	<!-- Back-end files -->
+	<administration>
+		<!-- Menu entries -->
+		<menu view="ajax_responses">COM_AJAX_RESPONSES</menu>
+		<submenu>
+			<menu link="option=com_ajax_responses">COM_AJAX_RESPONSES</menu>
+		</submenu>
+		<files folder="administrator/components/com_ajax_responses">
+			<filename>ajax_responses.xml</filename>
+			<filename>config.xml</filename>
+			<folder>Controller</folder>
+			<folder>Extension</folder>
+			<folder>Field</folder>
+			<folder>Model</folder>
+			<folder>Service</folder>
+			<folder>Table</folder>
+			<folder>View</folder>
+			<folder>forms</folder>
+			<folder>services</folder>
+			<folder>sql</folder>
+			<folder>tmpl</folder>
+			<folder>language</folder>
+		</files>
+	</administration>
+	<changelogurl>https://raw.githubusercontent.com/astridx/boilerplate/tutorial/changelog.xml</changelogurl>
+	<updateservers>
+		<server type="extension" name="Ajax_response Updates">https://raw.githubusercontent.com/astridx/boilerplate/tutorial/ajax_response_update.xml</server>
+	</updateservers>
+	<dlid prefix="dlid=" suffix="" />
+</extension>

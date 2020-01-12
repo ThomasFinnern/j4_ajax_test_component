@@ -1,0 +1,18 @@
+Buildfile: d:\Entwickl\Entwickl.2019\_GitHub\j4_ajax_test_component\.build\build.xml
+      [php] Calling PHP function: strtolower()
+
+RSG2_component > prepareFolder:
+
+     [echo] prepareFolder start
+     [echo] prepareFolder end
+
+RSG2_component > copy2Temp:
+
+     [echo] copy2Temp start
+     [copy] Copying 1 file to D:\Entwickl\Entwickl.2019\_GitHub\j4_ajax_test_component\.packages\tmp\administrator
+
+BUILD FAILED
+d:\Entwickl\Entwickl.2019\_GitHub\j4_ajax_test_component\.build\build.xml:233:94: Could not find file D:\Entwickl\Entwickl.2019\_GitHub\j4_ajax_test_component\administrator\com_$(extensionLower)\changelog.xml to copy.
+
+Total time: 0.6806 seconds
+
