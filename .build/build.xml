@@ -103,7 +103,7 @@
 	.........................................................................
 	-->
 	
-    <!-- Set the source abd destination directory for copy (sources relative to the build dir) -->
+    <!-- Set the source and destination directory for copy (sources relative to the build dir) -->
     <property name="buildDir" value="./../.packages/" override="true" />
     <property name="buildDirTemp" value="${buildDir}tmp/" override="true" />
     <!-- Declare Project src files -->
@@ -191,9 +191,6 @@
     <target name="prepareDstFolder">
 		<echo msg="prepareDstFolder start" />
 	
-        <!--mkdir dir="${buildDir}/tmp/administrator" />
-        <mkdir dir="${buildDir}/tmp/components" />
-        <mkdir dir="${buildDir}/tmp/media" /-->
         <mkdir dir="${srcAdminCmp}" />
         <mkdir dir="${srcSiteCmp}" />
         <mkdir dir="${srcMediaCmp}" />
